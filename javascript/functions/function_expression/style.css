@@ -1,0 +1,37 @@
+#num {
+  font-size: 10em;
+  display: block;
+  text-align: center;
+}
+
+.count {
+    margin-top: 0;
+  font-size: 1em;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+
+#increase {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#decrease {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#reset {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}

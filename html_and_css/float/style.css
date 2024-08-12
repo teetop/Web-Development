@@ -1,0 +1,14 @@
+body {
+    border:  3px solid;
+    display: flow-root;
+}
+
+#soccer {
+    float: left;
+    margin-right:  10px;
+}
+
+#football {
+    float: right;
+    margin-left: 10px;
+}

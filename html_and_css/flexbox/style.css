@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  /* flex-direction: row;  /*default*/
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column;      */
+  /* flex-direction: column-reverse;      */
+  /*   justify-content: flex-start; /*default*/
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  border: 10px solid hsl(0, 0%, 43%);
+  border-radius: 10px;
+  height: 90vh;
+  /* align-items: flex-start;  /*default */
+  /* align-items: flex-end; */
+  /* align-items: center;   */
+  /* align-items: baseline;   */
+  /*  flex-wrap: nowrap; /*default*/
+  /* flex-wrap: wrap-reverse; */
+
+  /* flex-wrap: wrap; */
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: center; */
+  /* column-gap: 1em;
+  row-gap: 1em; */
+}
+.box {
+  width: 150px;
+  height: 150px;
+  font-size: 8em;
+  text-align: center;
+  font-family: "Trebuchet MS";
+  border-radius: 15px;
+}
+
+#box1 {
+  background-color: hsl(0, 57%, 66%);
+  align-self: start;
+  /* align-self: center;
+  align-self: end; */
+  order: 1;
+}
+
+#box2 {
+  background-color: hsl(64, 57%, 66%);
+  align-self: center;
+  /* order: -1; */
+}
+
+#box3 {
+  background-color: hsl(192, 57%, 66%);
+  align-self: end;
+    /* order: -1; */
+}
+
+#box4 {
+  background-color: hsl(123, 57%, 66%);
+  align-self: start;
+}

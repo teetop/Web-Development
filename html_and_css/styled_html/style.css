@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+#first {
+    color: blue;
+}
+
+#second {
+    color: red;
+}
+#third {
+    color: green;
+}
+#fourth {
+    color: black;
+}
+
+.odd {
+    background-color: white
+}
+.even {
+    background-color: grey;
+}

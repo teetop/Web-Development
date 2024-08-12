@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Agbalumo;
+  src: url(../internal/fonts/Agbalumo-Regular.ttf);
+}
+@font-face {
+  font-family: Rob;
+  src: url(../internal/fonts/Roboto-Italic.ttf);
+}
+
+h1 {
+  font-family: Agbalumo;
+}
+
+pre {
+  font-family: Rob;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+}

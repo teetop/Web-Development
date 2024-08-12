@@ -1,0 +1,14 @@
+
+
+#inner{
+    background-color: #FF1493;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+#outer{
+    background-color: #FF1493;
+    height: 200px;
+    width: 200px;
+    /*border: 2px solid black;*/
+}

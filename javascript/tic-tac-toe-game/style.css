@@ -1,0 +1,145 @@
+body {
+     background-image: linear-gradient(to right, #15616D, #001524);/* Soft, flowery background */
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    color: #FFECD1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.cell {
+    /*width: 75px;*/
+    /*height: 75px;*/
+    /*border: 2px solid;*/
+    border-radius: 12px;
+    box-shadow: 2px 0 0 0;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.cell {
+    width: 90px;
+    height: 90px;
+    border: 2px solid deeppink; /* Pale lavender border #d5c5ee */
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+    animation: hover-pulse 1.0s ease-out infinite;
+}
+
+.cell:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px; /*75px times 3*/
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+#gameContainer {
+    font-family: cursive;
+    color: #8e72b7;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #fff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #15616D, #001524);
+}
+
+#status {
+    margin-top: 5px;
+    font-size: 30px;
+    color: #ae0303;
+    margin-bottom: 30px;
+}
+
+#restart {
+    background-color: #FFECD1;
+    color: #001524;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: Algerian, cursive;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#restart:hover {
+    background-color: #C5CAB8; /* Darker pink on hover */
+}
+
+@keyframes hover-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.score {
+    height: 40px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 12px;
+    background-color: #fff;
+    color: black;
+    line-height: 40px;
+    font-family: "Colonna MT", cursive;
+}
+
+#vs {
+    width: 30px;
+    font-weight: bolder;
+    line-height: 50px;
+}
+
+#player1Score, #player2Score {
+    width: 40px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+#player1, #player2 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 0;
+    font-family: cursive;
+    font-size: 1.5em;
+    color: #FFECD1;
+}
+
+
+#scoreContainer {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    width: 500px; /*the sum of all the widths*/
+    margin: auto;
+}

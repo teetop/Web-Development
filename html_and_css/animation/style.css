@@ -1,0 +1,84 @@
+
+body{
+    background-color: hsl(0, 5%, 32%);
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 90%, 62%);
+    font-size: 13em;
+    text-align: center;
+    /* animation-name: slideLeft;  */
+    /* animation-name: slideRight;  */
+    /* animation-name: slideUp;  */
+    /* animation-name: slideDown;  */
+    animation-name: slideLeft; 
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+    animation-play-state: running; /*very useful with javascript*/
+    /* animation-timing-function: steps(6); */
+    animation-timing-function: linear;
+}
+
+/* #box:hover{
+    animation-name: glow; 
+    animation-duration: 2s;
+} */
+
+@keyframes slideLeft {
+    from{
+        transform: translateX(300%);
+    }
+}
+
+@keyframes slideRight {
+    to{
+        transform: translateX(300%);
+    }
+}
+
+@keyframes slideUp {
+    from{
+        transform: translateY(300%);
+    }
+}
+
+@keyframes slideDown {
+    to{
+        transform: translateY(300%);
+    }
+}
+
+@keyframes rotateSide {
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes rotateUp {
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+
+@keyframes rotateRound {
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes changeColor{
+    0%{    background-color: hsl(0, 90%, 62%);}
+   20%{    background-color: hsl(61, 90%, 62%);}
+    40%{    background-color: hsl(135, 90%, 62%);}
+    60%{    background-color: hsl(204, 90%, 62%);}
+    80%{    background-color: hsl(298, 90%, 62%);}
+    100%{    background-color: hsl(342, 90%, 62%);}
+}
+
+@keyframes glow{
+     50%{
+        box-shadow: 0px 0px 50px  hsl(78, 90%, 62%);;
+     }
+}

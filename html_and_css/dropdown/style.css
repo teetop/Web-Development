@@ -1,0 +1,36 @@
+.drop button{
+    background-color: #f3eded;
+    color: rgb(27, 8, 8);
+    padding:  10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(39, 37, 37);
+}
+
+.drop a{
+    display: block;
+    color: rgb(32, 28, 28);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.drop .down{
+    display: none;
+    position: absolute;
+    background-color: #f7e0e0;
+    min-width: 90px;
+    box-shadow: 2px 2px 5px rgb(39, 37, 37);
+}
+.drop:hover .down{
+    display: block;
+}
+.drop:hover button{
+    background-color:#f7e0e0;
+}
+.drop a:hover{
+    background-color:#e78484;
+}
+.drop{
+    display: inline-block;
+}

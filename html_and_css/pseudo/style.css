@@ -1,0 +1,20 @@
+
+a:visited{
+    color: rgb(192, 190, 190)
+}
+
+a:active{
+    color: rgb(255, 0, 191)(255, 0, 212);
+    font-size: 1.1em;
+}
+
+a:hover{
+    color: rgb(226, 101, 43);
+    font-size: 1.1em;
+}
+
+a:link{
+    color: #2b588b;
+    border: 1px solid;
+    align-self: center;
+}

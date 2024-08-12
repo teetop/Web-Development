@@ -1,0 +1,14 @@
+li:hover{
+    background-color: rgb(153, 241, 241);
+}
+
+li:not(:hover) {
+    background-color: whitesmoke;
+}
+span:hover{
+    background-color: #eb9191;
+}
+
+li:nth-child(3n+1){  /*odd, even, 3n, 2n, etc*/
+    background-color: rgb(199, 240, 134);
+}

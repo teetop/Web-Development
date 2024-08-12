@@ -1,0 +1,8 @@
+#divBox{
+    background-color: rgba(137, 189, 77, 0.85);
+    height: 100px;
+    width: 100px;
+    /*border: 1px solid red;*/
+    /*border-radius: 5px;*/
+    position: relative;
+}
